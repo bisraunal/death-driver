@@ -1,6 +1,6 @@
 # Death Driver 
 
-**Death Driver , HTML5 ve JavaScript kullanılarak geliştirilmiş bir 2D araba sürüş oyunudur. 
+Death Driver , HTML5 ve JavaScript kullanılarak geliştirilmiş bir 2D araba sürüş oyunudur. 
 
 
 # Oynanış Bilgileri
@@ -37,8 +37,8 @@ Görseller ve sesler [OpenGameArt](https://opengameart.org) sitesinden alınmı�
 
 # Oyun Görselleri
 
-![Oyun Görseli 1](screenshot.png)  
-![Oyun Görseli 2](screenshot2.png)
+![Oyun Görseli 1](assets/screenshot.png)  
+![Oyun Görseli 2](assets/screenshot2.png)
 
 # Oynanış Videosu
 
