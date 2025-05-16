@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Death Driver 2</title><!--  oyunun ismi baslik cubugunda gozukur -->
+  <link rel="icon" type="image/png" href="assets/icon.png" /><!-- baslik cubugunda gozuken ikon -->
+      <!--css kodlari -->  
+  <style>
+    body {
+      background: linear-gradient(#42345e, #203b44, #264958);/*arka plandaki renk gecisleri*/
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+    }
+    canvas {
+      background: #2c1d1d; /*canvas arka plan ozellikleri*/
+      display: block;
+      margin: 30px auto;
+      box-shadow: 0 0 20px #000; 
+      border: 4px solid #ffffff22;
+      border-radius: 10px;
+    }
+    #menu {
+      margin-top: -10px;  /*menu kismi*/
+    }
+    button {
+      background: #fbff0c; /* start ve pause buton duzenlemeleri*/
+      color: rgb(7, 7, 7);
+      border: none;
+      padding: 13px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      margin: 10px;
+      cursor: pointer;
+      transition: background 0.4s, transform 0.3s;
+    }
+    button:hover {
+      background: #16a085;/*fareyle buton uzerine gelince renk degisir*/
+      transform: scale(1.05);/*fareyle buton uzerine gelince buyur*/
+    }
+  </style>
+</head>
+<body>
+    <!-- Oyunun oynandigi canvas ekrani -->
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <!-- oyundaki butonlar -->
+  <div id="menu">
+    <button id="startBtn">START</button>
+    <button id="pauseBtn">PAUSE(P)</button>
+  </div>
+
+<!--oyundaki img tagları asset yüklemek için.. -->
+  <img id="asphalt" src="assets/asphalt.png" hidden>
+  <img id="car" src="assets/car.png" hidden>
+  <img id="obstacle" src="assets/obstacle.png" hidden>
+  <img id="mountain" src="assets/mountain.png" hidden>
+  <img id="fuel" src="assets/fuel.png" hidden>
+<!--oyundaki ses taglari asset yuklemek icin-->
+  <audio id="bgMusic" src="assets/bg.mp3" loop></audio>
+  <audio id="crashSound" src="assets/crash.mp3"></audio>
+
+ <!-- oyundaki JavaScript dosyası -->
+  <script src="game.js"></script>
+</body>
+</html>
