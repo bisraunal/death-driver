@@ -1,10 +1,10 @@
-# 💬 AI.md - Yapay Zeka Desteği Belgelendirme
+# AI.md - Yapay Zeka Desteği Belgelendirme
 
 Bu dosya, Death Driver Oyunu geliştirilirken kullanılan yapay zeka (ChatGPT - OpenAI GPT-4) desteğini ve etkileşim geçmişini belgelemek amacıyla oluşturulmuştur.
 
 ---
 
-## 📌 Kullanılan Yapay Zeka Aracı
+## Kullanılan Yapay Zeka Aracı
 
 * **Araç Adı:** ChatGPT (GPT-4)
 
@@ -12,7 +12,7 @@ Bu dosya, Death Driver Oyunu geliştirilirken kullanılan yapay zeka (ChatGPT - 
 
 ---
 
-## 📥 Kullanılan Promptlar ve Alınan Yanıtlar
+##Kullanılan Promptlar ve Alınan Yanıtlar
 
 ###  Prompt 1
 
@@ -21,7 +21,7 @@ Bu dosya, Death Driver Oyunu geliştirilirken kullanılan yapay zeka (ChatGPT - 
 
 ---
 
-### 🎯 Prompt 2
+### Prompt 2
 
 **Soru:** "Arabamın benzin toplamasını istiyorum. Benzin nesneleri ekleyip bunlarla çarpıştığında skor artsın. Bunu nasıl yapabilirim?"
 **Yanıt:** Benzin nesnesinin oluşturulması, ekran üzerinde hareket ettirilmesi, çarpışma kontrolü ve skor arttırma için gereken JavaScript mantığı detaylandırıldı.
