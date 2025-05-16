@@ -1,6 +1,6 @@
 # 💬 AI.md - Yapay Zeka Desteği Belgelendirme
 
-Bu dosya, **Death Driver ** oyunu geliştirilirken kullanılan yapay zeka (ChatGPT - OpenAI GPT-4) desteğini ve etkileşim geçmişini belgelemek amacıyla oluşturulmuştur.
+Bu dosya, Death Driver Oyunu geliştirilirken kullanılan yapay zeka (ChatGPT - OpenAI GPT-4) desteğini ve etkileşim geçmişini belgelemek amacıyla oluşturulmuştur.
 
 ---
 
@@ -28,24 +28,21 @@ Bu dosya, **Death Driver ** oyunu geliştirilirken kullanılan yapay zeka (ChatG
 
 ---
 
-### 🎯 Prompt 3
+### Prompt 3
 
 **Soru:** "README.md dosyamı yazmak istiyorum. Oyun HTML5/JS ile yapıldı. Oyuncu klavye ile kontrol ediyor. Nasıl sade ve profesyonel bir açıklama yazarım?"
 **Yanıt:** Bölüm bölüm açıklayıcı ve sade bir README taslağı önerildi. Başlık yapısı, bağlantılar, oynanış bilgileri ve geliştirici bilgileri örneklendi.
 
----
+### Prompt 4
 
-### 🎯 Prompt 4
+**Soru: **"Arabamın yolda kalmasını istiyorum. Ekranın dışına çıkmasın. Sınırları nasıl belirlerim?"
+**Yanıt:** Arabanın konumuna koşullu kontroller eklenerek sol ve sağ kenarlara çarpması engellendi. if yapıları ile sınır değerler önerildi.
 
-**Soru:** "Projemde ChatGPT kullandığımı nasıl şeffaf şekilde belirtmeliyim? AI.md nasıl hazırlanır?"
-**Yanıt:** AI.md dosyasına dahil edilmesi gereken başlıklar, içerik düzeni ve açıklamaların nasıl yazılması gerektiği açıklandı.
+### Prompt 5
 
----
+**Soru:** "Canvas içinde sürekli akan bir yol efekti vermek istiyorum. Bunu nasıl yapabilirim?"
+**Yanıt:** Yatay veya dikey hareket eden zemin görselleri veya çizgiler kullanarak arka planın hareket ettiği izlenimi verilmesi önerildi. FPS ile zamanlamanın nasıl ayarlanacağı açıklandı.
 
-### 🎯 Prompt 5
-
-**Soru:** "Bu bir ödev projesi, her şeyi doğru ve eksiksiz gösterecek şekilde ChatGPT kullanımlarımı belgelemek istiyorum. Ne yapmalıyım?"
-**Yanıt:** Tüm promptlar tek tek listelenmeli, kullanılan yapay zeka aracı açıklanmalı ve kodlamanın öğrenci tarafından yapıldığı özellikle belirtilmeli şeklinde detaylı yönlendirme verildi.
 
 
 
