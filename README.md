@@ -42,7 +42,7 @@ Görseller ve sesler [OpenGameArt](https://opengameart.org) sitesinden alınmı�
 
 # Oynanış Videosu
 
-[Oynanış Videosu]()
+[Oynanış Videosu](https://youtu.be/f9dgb10q0-k)
 
 
 
